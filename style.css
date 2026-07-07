@@ -69,6 +69,7 @@ ul li a{
 /* hero section style */
 .hero-parent-root{
     background-color: #FFF8F3;
+}
 .hero-parent{
     display: flex;
     justify-content: space-between;
@@ -91,4 +92,58 @@ ul li a{
 
 .hero-left-btn-parent{
     margin-top: 0.9rem;
+}
+
+
+/* about style */
+
+.about-parent{
+    background-color:#fff8f3;
+    margin: 70px auto;
+    padding: 75px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-parent p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #474747;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: #f3e5da59;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.what-i-do-card-container .what-i-do-card{
+    /* border: 1px solid tomato; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 30px #8f8d8d57;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px auto;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
 }

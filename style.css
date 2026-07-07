@@ -231,3 +231,99 @@ ul li a{
 .box-6{
     grid-area: six;
 }
+
+
+/* footer style */
+footer{
+    margin-top:80px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+
+    background:#FFF8F3;
+    padding:60px;
+    border-radius:18px;
+}
+
+footer h2{
+    font-size:2rem;
+    margin-bottom:18px;
+    color:#181818;
+}
+
+footer p{
+    color:#757575;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.footer-left{
+    text-align:left;
+}
+
+.footer-right{
+    text-align:left;
+}
+
+footer form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+footer form input,
+footer form textarea{
+    width:100%;
+    padding:16px 20px;
+
+    border:1px solid #ddd;
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:1rem;
+    transition:.3s;
+}
+
+footer form textarea{
+    resize:none;
+}
+
+footer form input:focus,
+footer form textarea:focus{
+    border-color:#FD6E0A;
+    box-shadow:0 0 0 4px rgba(253,110,10,.15);
+}
+
+.footer-icon-parent{
+    display:flex;
+    gap:18px;
+    margin-top:20px;
+}
+
+.footer-icon-parent span{
+    width:45px;
+    height:45px;
+
+    background:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#FD6E0A;
+
+    font-size:1.2rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.footer-icon-parent span:hover{
+    background:#FD6E0A;
+    color:white;
+    transform:translateY(-4px);
+}

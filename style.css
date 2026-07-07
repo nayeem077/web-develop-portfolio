@@ -11,6 +11,17 @@
 img{
     max-width: 100%;
 }
+/* common margin */
+.my_edu_and_exp{
+    margin-bottom: 3rem;
+    color: #474747;
+}
+.edu-exp-color{
+    color: #474747;
+}
+.edu-exp-color-h4{
+    color: #757575;
+}
 
 /* common color */
 .common-button{
@@ -146,4 +157,77 @@ ul li a{
 .what-i-do-card-container .what-i-do-card p{
     color: #757575;
     font-size: 15px;
+}
+
+
+/* a summary of my resume design */
+.summary-of-my-resume{
+    margin-top: 150px;
+}
+#my_resume{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 120px;
+}
+
+.summary-of-my-resume-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.edu-card, .my-exp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px ;
+    box-shadow: 0 0 30px #8f8d8d57;
+    border-radius: 10px;
+}
+.summary-of-my-resume button{
+    margin-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* amazing work */
+.my-amazing-parent{
+    text-align: center;
+}
+.gallery{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
 }
